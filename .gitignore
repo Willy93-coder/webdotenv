@@ -1,0 +1,76 @@
+# ---------------------------------------------------------------------------
+# Project root
+# ---------------------------------------------------------------------------
+.env
+!.env.examples
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+coverage/
+*.coverprofile
+*.test
+
+# ---------------------------------------------------------------------------
+# Docker
+# ---------------------------------------------------------------------------
+build/
+out/
+*.tar
+
+# ---------------------------------------------------------------------------
+# Node / pnpm (client/)
+# ---------------------------------------------------------------------------
+client/node_modules/
+client/.pnpm-store/
+client/.eslintcache
+client/.parcel-cache/
+client/.turbo/
+client/dist/
+client/.vite/
+
+client/.vscode/
+client/.idea/
+
+client/package-lock.json
+client/yarn.lock
+
+# ---------------------------------------------------------------------------
+# Go (api/)
+# ---------------------------------------------------------------------------
+api/app
+api/*.exe
+api/*.out
+api/*.test
+
+api/.cache/
+api/.gocache/
+api/.gomodcache/
+api/vendor/
+
+api/.vscode/
+api/.idea/
+
+# ---------------------------------------------------------------------------
+# Vim / Neovim
+# ---------------------------------------------------------------------------
+# Swap files
+*.swp
+*.swo
+*.swn
+*.sw?
+.*.sw?
+
+# Backup and undo files
+*.bak
+*.un~
+*.~undo~
+
+# Vim session and tags
+Session.vim
+tags

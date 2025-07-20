@@ -1,0 +1,31 @@
+# ──────────────────────────────────────────────────────────
+# Version control
+.git
+.gitignore
+
+# Editor / IDE artifacts
+.vscode
+.idea
+
+# Dependency caches
+node_modules
+.pnpm-store
+.eslintcache
+.parcel-cache
+.turbo
+.vite
+
+# Build output
+dist
+
+# OS / miscellaneous noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Local environment files
+.env*

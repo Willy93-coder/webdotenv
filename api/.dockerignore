@@ -1,0 +1,29 @@
+# ──────────────────────────────────────────────────────────
+# Version control
+.git
+.gitignore
+
+# Editor / IDE artifacts
+.vscode
+.idea
+
+# Compiled binaries
+app
+*.exe
+*.out
+*.test
+
+# Go build & module caches
+.cache
+.gocache
+.gomodcache
+
+# OS / miscellaneous noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local environment files
+.env*
